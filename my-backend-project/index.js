@@ -7,7 +7,10 @@ const nodemailer = require('nodemailer');
 
 dotenv.config();
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://phenomenal-jalebi-1bb3ab.netlify.app',
+  credentials: true
+}));
 app.use(express.json());
 
 // Connect to MongoDB
