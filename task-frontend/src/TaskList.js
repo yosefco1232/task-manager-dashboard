@@ -11,7 +11,7 @@ function TaskList({ onLogout }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:3000/tasks', {
+    fetch('https://https-github-com-yosefco1232-task.onrender.com/tasks', {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(res => res.json())
@@ -22,7 +22,7 @@ function TaskList({ onLogout }) {
 
   const handleAddTask = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3000/tasks', {
+    fetch('https://https-github-com-yosefco1232-task.onrender.com/tasks', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ function TaskList({ onLogout }) {
   };
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:3000/tasks/${id}`, {
+    fetch(`https://https-github-com-yosefco1232-task.onrender.com/tasks/${id}`, {
       method: 'DELETE',
       headers: { Authorization: `Bearer ${token}` }
     }).then(() => {
@@ -53,7 +53,7 @@ function TaskList({ onLogout }) {
   };
 
   const updateStatus = (id, status) => {
-    fetch(`http://localhost:3000/tasks/${id}/status`, {
+    fetch(`https://https-github-com-yosefco1232-task.onrender.com/tasks/${id}/status`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',

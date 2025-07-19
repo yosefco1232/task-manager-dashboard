@@ -16,7 +16,7 @@ function PerformancePage() {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    fetch('http://localhost:3000/stats', {
+    fetch('https://https-github-com-yosefco1232-task.onrender.com/stats', {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(res => res.json())
