@@ -12,6 +12,8 @@ app.use(cors({
   methods: ['GET', 'POST', 'OPTIONS'],
   credentials: true
 }));
+
+app.options('*', cors()); // Handle preflight requests
 app.use(express.json());
 
 // Connect to MongoDB
