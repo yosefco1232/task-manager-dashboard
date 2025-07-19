@@ -12,9 +12,9 @@ A full-stack productivity web app that allows users to manage tasks, track perfo
 
 ## 📸 Screenshots
 
-![Preview](loginPage.png)
+![loginPage_preview](assets/loginPage.png)
 
-![Preview](Tasks.png)
+![Tasks_preview](assets/Tasks.png)
 
 - Task list interface  
 - Performance tracking chart  
@@ -33,9 +33,9 @@ A full-stack productivity web app that allows users to manage tasks, track perfo
 ## 🧩 Features
 
 - ✅ User signup and login with JWT auth
-- ✅ Add, delete, and update tasks
-- ✅ Performance analytics dashboard
-- ✅ Email reminders using Gmail App Password
+- ✅ Add, delete, and update tasks, notes and deadlines.
+- ✅ View monthly performance statistics dashboard
+- ✅ Recive email reminders one day before a deadline using Gmail App Password
 - ✅ Fully responsive design
 
 ---
