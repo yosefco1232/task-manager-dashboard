@@ -3,7 +3,22 @@
 A full-stack productivity web app that allows users to manage tasks, track performance, and receive email reminders — built with MongoDB, Express.js, React, and Node.js (MERN stack).
 
 ---
+## 🧩 Features
 
+- ✅ User signup and login with JWT authentication.
+- ✅ Add, delete, and update tasks, notes and deadlines.
+- ✅ View monthly performance statistics dashboard.
+- ✅ Recive email confirmation after registration and reminders a day before any deadline [using Gmail App Password].
+- ✅ Fully responsive design.
+
+---
+## ⚙️ Technologies Used
+
+| Frontend | Backend | Database | Other |
+|----------|---------|----------|-------|
+| React    | Express | MongoDB  | Node.js, JWT, Nodemailer, Netlify, Render |
+
+---
 ## 🔗 Live Demo
 
 👉 [https://phenomenal-jalebi-1bb3ab.netlify.app](https://phenomenal-jalebi-1bb3ab.netlify.app)  
@@ -22,23 +37,6 @@ A full-stack productivity web app that allows users to manage tasks, track perfo
 
 ---
 
-## ⚙️ Technologies Used
-
-| Frontend | Backend | Database | Other |
-|----------|---------|----------|-------|
-| React    | Express | MongoDB  | Node.js, JWT, Nodemailer, Netlify, Render |
-
----
-
-## 🧩 Features
-
-- ✅ User signup and login with JWT auth
-- ✅ Add, delete, and update tasks, notes and deadlines.
-- ✅ View monthly performance statistics dashboard
-- ✅ Recive email reminders one day before a deadline using Gmail App Password
-- ✅ Fully responsive design
-
----
 
 ## 🚀 Getting Started Locally
 
