@@ -14,7 +14,7 @@ A full-stack productivity web app that allows users to manage tasks, track perfo
 
 ![loginPage_preview](assets/login.png)
 
-![Tasks_preview](assets/task.png)
+![Tasks_preview](assets/Task.png)
 ![performace_preview](assets/performace.png)
 - Task list interface  
 - Performance tracking chart  
