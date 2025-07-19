@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(cors({
   origin: 'https://phenomenal-jalebi-1bb3ab.netlify.app',
-  methods: ['GET', 'POST', 'OPTIONS'],
+  methods: ['GET', 'POST', 'OPTIONS','PATCH','DELETE'],
   credentials: true
 }));
 
