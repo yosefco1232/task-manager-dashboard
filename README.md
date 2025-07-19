@@ -1,35 +1,57 @@
-# 🗂️ Task Manager Dashboard
+# 🧠 Task Manager Dashboard
 
-A personal productivity app built with React, Node.js, and MongoDB.  
-Simple, focused, and designed to help users stay on top of their goals.
+A full-stack productivity web app that allows users to manage tasks, track performance, and receive email reminders — built with MongoDB, Express.js, React, and Node.js (MERN stack).
 
-## ✅ Features
+---
 
-- Add tasks with titles, notes, and deadlines
-- Mark tasks as completed, delayed, or missed
-- View monthly performance statistics as a dynamic chart
-- Receive email reminders the day before deadlines
-- Organized UX with grouped views by month and responsive design
+## 🔗 Live Demo
 
-## 🛠 Tech Stack
+👉 [https://phenomenal-jalebi-1bb3ab.netlify.app](https://phenomenal-jalebi-1bb3ab.netlify.app)  
 
-- Frontend: React, Recharts, CSS
-- Backend: Node.js, Express
-- Database: MongoDB
-- Email: Nodemailer
-- Auth: JSON Web Tokens (JWT)
+---
 
-## 📦 Setup Instructions
+## 📸 Screenshots
 
-To run locally:
+![Preview](loginPage.png)
+
+![Preview](Tasks.png)
+
+- Task list interface  
+- Performance tracking chart  
+- Login/signup flow
+
+---
+
+## ⚙️ Technologies Used
+
+| Frontend | Backend | Database | Other |
+|----------|---------|----------|-------|
+| React    | Express | MongoDB  | Node.js, JWT, Nodemailer, Netlify, Render |
+
+---
+
+## 🧩 Features
+
+- ✅ User signup and login with JWT auth
+- ✅ Add, delete, and update tasks
+- ✅ Performance analytics dashboard
+- ✅ Email reminders using Gmail App Password
+- ✅ Fully responsive design
+
+---
+
+## 🚀 Getting Started Locally
 
 ```bash
-# Frontend
-cd task-frontend
+# Clone the repo
+git clone https://github.com/yosefco1232/task-manager-dashboard
+
+# Navigate to frontend
+cd task-manager-dashboard/task-frontend
 npm install
 npm start
 
-# Backend
-cd backend
+# Navigate to backend
+cd ../my-backend-project
 npm install
 node index.js
